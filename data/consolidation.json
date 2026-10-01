@@ -1,0 +1,36 @@
+{
+  "name": "consolidating",
+  "purpose": "複数の定義・仕様・観測を比較し、一貫した統合案へ収束させる",
+  "principles": [
+    "merge_before_create",
+    "preserve_source",
+    "contradiction_before_conclusion",
+    "explicit_assumption",
+    "unresolved_is_valid"
+  ],
+  "operations": [
+    "normalize",
+    "compare",
+    "detect_overlap",
+    "detect_conflict",
+    "detect_gap",
+    "detect_granularity_difference",
+    "consolidate"
+  ],
+  "output": {
+    "consolidated": {},
+    "overlaps": [],
+    "conflicts": [],
+    "gaps": [],
+    "assumptions": [],
+    "unresolved": [],
+    "sources": []
+  },
+  "constraints": [
+    "原定義を破壊しない",
+    "矛盾を平均化して消さない",
+    "根拠のない補完をしない",
+    "推測と確定を分離する",
+    "統合できないものを無理に統合しない"
+  ]
+}
